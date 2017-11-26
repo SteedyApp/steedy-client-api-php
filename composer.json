@@ -8,7 +8,7 @@
         "guzzlehttp/guzzle": "^6.0"
     },
     "autoload": {
-        "psr-4": {"Steedy\\": "src/"}
+        "classmap": [""]
     },
     "require-dev": {
         "phing/phing": "^2.14"
