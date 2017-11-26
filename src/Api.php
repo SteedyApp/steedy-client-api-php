@@ -104,7 +104,7 @@ class API
     public function __construct(
         $client_id,
         $client_secret,
-        $api_endpoint,
+        $api_endpoint = 'v1',
         $token = null,
         Client $http_client = null
     ) {
