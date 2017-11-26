@@ -1,0 +1,10 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Trashes
+*.sublime-*
+vendor
+composer.lock
+bin
