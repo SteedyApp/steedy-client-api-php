@@ -1,5 +1,5 @@
 {
-    "name": "steedy/steedy",
+    "name": "steedy/steedy-client-api-php",
     "description": "Wrapper for Steedy API",
     "license": "MIT License",
     "require": {

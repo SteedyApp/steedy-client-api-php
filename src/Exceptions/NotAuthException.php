@@ -35,7 +35,7 @@ use Exception;
 /**
  * NotAuthException exception is thrown when authentication was required for the request but authentication wasn't done before the request, or token is invalid
  *
- * @package Steedy
+ * @package steedy-client-api-php
  * @category Exceptions
  */
 class NotAuthException extends Exception

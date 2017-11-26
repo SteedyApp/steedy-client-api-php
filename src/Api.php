@@ -36,7 +36,7 @@ use GuzzleHttp\Psr7\Response;
 /**
  * Wrapper to manage authentication and requests with Steedy API
  *
- * @package  Steedy
+ * @package  steedy-client-api-php
  * @category API
  */
 class API

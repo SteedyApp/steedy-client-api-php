@@ -35,7 +35,7 @@ use Exception;
 /**
  * InvalidParameterException exception is thrown when a request failed because of invalid given parameters
  *
- * @package Steedy
+ * @package steedy-client-api-php
  * @category Exceptions
  */
 class InvalidParameterException extends Exception

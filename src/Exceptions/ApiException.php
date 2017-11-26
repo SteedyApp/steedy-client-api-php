@@ -35,7 +35,7 @@ use Exception;
 /**
  * ApiException exception is thrown when a request to Steedy API failed
  *
- * @package Steedy
+ * @package steedy-client-api-php
  * @category Exceptions
  */
 class ApiException extends Exception
