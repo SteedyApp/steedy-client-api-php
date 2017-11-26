@@ -6,5 +6,4 @@ Icon
 .Trashes
 *.sublime-*
 vendor
-composer.lock
 bin
