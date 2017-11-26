@@ -316,4 +316,12 @@ class API
     {
         return $this->http_client;
     }
+    
+    /**
+     * Return instance of http response
+     */
+    public function getHttpResponse()
+    {
+        return $this->http_response;
+    }
 }
