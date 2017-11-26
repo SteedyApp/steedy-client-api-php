@@ -86,6 +86,13 @@ class API
      * @var Client
      */
     private $http_client = null;
+    
+    /**
+     * Contain the last HTTP response
+     *
+     * @var Response
+     */
+    private $http_response = null;
 
     /**
      * Construct a new wrapper instance
@@ -229,7 +236,9 @@ class API
         }
 
         /** @var Response $response */
-        return $this->http_client->send($request, ['headers' => $headers]);
+        $this->http_response = $this->http_client->send($request, ['headers' => $headers]);
+
+        return $this->http_response;
     }
     
     /**
