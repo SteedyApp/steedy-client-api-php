@@ -1,8 +1,10 @@
 {
     "name": "steedy/steedy-client-api-php",
-    "description": "Wrapper for Steedy API",
-    "license": "MIT License",
+    "description": "PHP Wrapper for Steedy API",
+    "homepage": "https://github.com/SteedyApp/steedy-client-api-php",
+    "license": "MIT",
     "require": {
+        "php": ">=5.6",
         "guzzlehttp/guzzle": "^6.0"
     },
     "autoload": {
