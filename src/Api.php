@@ -230,7 +230,8 @@ class API
         }
         
         $headers['Content-Type']      = 'application/json; charset=utf-8';
-
+        $headers['X-Steedy-ClientID'] = $this->client_id;
+            
         if ($requires_auth) {
             $headers['Authorization'] = 'Bearer ' . $this->token;
         }
