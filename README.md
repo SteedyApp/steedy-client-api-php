@@ -18,6 +18,8 @@ $ composer require steedy/steedy-client-api-php
 2. [Create a delivery quote](#create-a-delivery-quote)
 3. [Validate a delivery quote](#validate-a-delivery-quote)
 4. [Get a delivery status](#get-a-delivery-status)
+5. [Cancel a delivery](#cancel-a-delivery)
+
 ### Initialize
 
 ```php
@@ -123,6 +125,16 @@ Once the delivery is accepted by a Steedy, you will be able to get geocoding inf
 
 ```php
 $follow_result = $api->get('/delivery/follow', array(
+    'order_id' => $order_id
+));
+```
+### Cancel a delivery
+
+If you delivery has not been accepted by a steedy already, you can still cancel it and get refund.
+Post to `/delivery/cancel` to cancel your delivery order.
+
+```php
+$cancel_result = $api->post('delivery/cancel', array(
     'order_id' => $order_id
 ));
 ```
