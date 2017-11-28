@@ -48,8 +48,8 @@ class API
      * @var array
      */
     private $endpoints = [
-    'v1'        => 'https://www.1steedy.fr/api/v1',
-    'v1test'    => 'https://www.1steedy.fr/api/v1/test'
+    'v1'            => 'https://www.1steedy.fr/api/v1',
+    'v1-sandbox'    => 'https://www.1steedy.fr/api/v1-sandbox'
     ];
 
     /**
