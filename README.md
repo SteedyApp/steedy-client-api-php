@@ -1,7 +1,7 @@
 # steedy-client-api-php
 Steedy PHP Client API
 
-You can view the complete API documentation [here](http://apidocs.1steedy.fr/). (only in french atm)
+You can view the complete API documentation [here](https://apidocs.1steedy.fr/). (only in french atm)
 Feel free to get in touch for anything you'd like to know.
 
 
@@ -56,7 +56,7 @@ $delivery_quote = $api->post('delivery/create', array(
 
 ##### With scheduled pickup
 
-More information about delivery scheduling [on our complete documentation](http://apidocs.1steedy.fr/#tag/Planification).
+More information about delivery scheduling [on our complete documentation](https://apidocs.1steedy.fr/#tag/Planification).
 
 ```php
 $delivery_quote = $api->post('delivery/create', array(
