@@ -121,7 +121,6 @@ $validate_result = $api->post('delivery/validate', array(
 ### Get a delivery status
 
 You can check your delivery status by querying the `/delivery/follow` endpoint. 
-Once the delivery is accepted by a Steedy, you will be able to get geocoding informations about the Steedy doing the delivery.
 
 ```php
 $follow_result = $api->get('/delivery/follow', array(
@@ -130,7 +129,7 @@ $follow_result = $api->get('/delivery/follow', array(
 ```
 ### Cancel a delivery
 
-If you delivery has not been accepted by a steedy already, you can still cancel it and get refund.
+If your delivery has not been accepted by a steedy yet, you can still cancel it, and get refund.
 Post to `/delivery/cancel` to cancel your delivery order.
 
 ```php
