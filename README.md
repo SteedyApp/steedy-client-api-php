@@ -137,3 +137,13 @@ $cancel_result = $api->post('delivery/cancel', array(
     'order_id' => $order_id
 ));
 ```
+### Check an address validity
+
+It can be sometimes useful for your app or ecommerce site to check if an address is valid and managed by our services. To do so, use the method below.
+
+```php
+$check_result = $api->post('delivery/is-valid-address', array(
+    'address' => '16 avenue Reille, 75014 Paris'
+));
+$is_valid_address = isset($check_result['is_valid_address']) && $check_result['is_valid_address'] === TRUE;
+```
