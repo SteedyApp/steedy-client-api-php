@@ -125,7 +125,7 @@ $validate_result = $api->post('delivery/validate', array(
 You can check your delivery status by querying the `/delivery/follow` endpoint. 
 
 ```php
-$follow_result = $api->get('/delivery/follow', array(
+$follow_result = $api->get('delivery/follow', array(
     'order_id' => $order_id
 ));
 ```
