@@ -26,6 +26,8 @@ $ composer require steedy/steedy-client-api-php
 $client_id = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // contact us at api@1steedy.fr to initiate your API access
 $client_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
 $api = new \Steedy\API($client_id, $client_secret);
+// to use the sandbox for testing:
+// $api = new \Steedy\API($client_id, $client_secret, 'v1-sandbox');
 $api->auth();
 ```
 
