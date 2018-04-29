@@ -98,8 +98,8 @@ class API
      * Construct a new wrapper instance
      *
      * @param string $client_id          key of your application.
-     *                                   For Steedy APIs, you can create a application's credentials on
-     *                                   https://api.ovh.com/createApp/
+     *                                   For Steedy APIs, you can request a application's credentials at
+     *                                   api@1steedy.fr
      * @param string $client_secret      secret of your application.
      * @param string $api_endpoint       name of api selected
      * @param string $token              If you have already a token, this parameter prevent to do a
