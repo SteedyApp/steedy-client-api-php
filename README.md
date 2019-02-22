@@ -141,7 +141,7 @@ $cancel_result = $api->post('delivery/cancel', array(
 ```
 ### Check an address validity
 
-It can be sometimes useful for your app or ecommerce site to check if an address is valid and managed by our services. To do so, use the method below.
+It can sometimes be useful for your app or ecommerce site to check if an address is valid and handled by our services. To do so, use the method below.
 
 ```php
 $check_result = $api->post('delivery/is-valid-address', array(
